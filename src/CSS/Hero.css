@@ -1,0 +1,112 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 20vh;
+  color: white;
+}
+
+
+
+
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #eae2e2d1;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #e2d8d8;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #e7dede;
+    line-height: 1.6;
+  }
+  
+  .highlight {
+    color: #4CAF50;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .btn.primary {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .btn.primary:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+  }
+  
+  .btn.secondary {
+    background-color: transparent;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+  }
+  
+  .btn.secondary:hover {
+    background-color: #4CAF50;
+    color: white;
+    transform: translateY(-2px);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  
+    .cta-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .btn {
+      width: 100%;
+      max-width: 250px;
+    }
+  } 
+  highlight .name-animation {
+    display: inline-flex;
+  }
+  
+  .name-animation span {
+    display: inline-block;
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
